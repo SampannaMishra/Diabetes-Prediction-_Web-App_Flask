@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Diabetes Predictor</title>
+</head>
+
+<body>
+ 
+    	<div class="container">
+           <h2>Fill in the details to predict Diabetes</h2>
+           <p> A Machine Learning Web App, Built with Flask.</p>
+      
+        </div>
+    	     
+    	      <div class="results">
+		        	  {% if prediction==1 %}
+		        	           <h3>Prediction: Oops! You have DIABETES.</h3>
+		        	          
+		        	  {% elif prediction==0 %}  
+		        	           <h3>Prediction: Great! You DON'T have diabetes.</h3>
+		        	  {% endif %}
+		</div>
+		
+</body>
+</html>		
+		
+		
+		
